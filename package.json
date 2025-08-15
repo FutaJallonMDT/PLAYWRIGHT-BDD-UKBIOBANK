@@ -1,0 +1,21 @@
+{
+  "name": "playwright-bdd-ukbiobank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js --format json:reports/report.json",
+  "report": "node generate-html-report.js",
+  "test:with-report": "npm run test && npm run report"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "ts-node": "^10.9.2"
+  }
+}

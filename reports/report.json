@@ -1,0 +1,207 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "@login-@editlabel-@newlist;logins",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Logins",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4515315200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I have accessed the google keep Login Page",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 435268000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "a user enters the username \"jajaopobo138@gmail.com\", the password \"Oneblood147@\", and clicks on login button",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12677984499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user clicks on the Menu Button",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5369673100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on edit labels Button",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295441899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks on create labels Button",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107038199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user inputs \"KeepNotePadTag\" as Label tag",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48747299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user clicks done button",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178313500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 560470300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "@login-@editlabel-@newlist;select-newlist",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Select NewList",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2194243100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I have accessed the google keep Login Page",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58377700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "a user enters the username \"jajaopobo138@gmail.com\", the password \"Oneblood147@\", and clicks on login button",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4258668800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user select new list button",
+            "match": {
+              "location": "src\\test\\steps\\loginsteps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8879102099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2253729599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "@login-@editlabel-@newlist",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "@login @editlabel @NewList",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
